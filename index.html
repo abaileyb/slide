@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Google Slides Remote</title>
+	<title>Remote for Google Slides™</title>
 	<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js" async></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="mobile-web-app-capable" content="yes">
@@ -96,6 +96,10 @@
 			color: white;
 			font-size: 12px;
 		}
+		#promo{
+			width:50%;
+			margin-bottom: 0;
+		}
 		@media screen and (max-width: 480px) {
 			.header-title{
 				margin:1em auto 1em;
@@ -106,6 +110,10 @@
 			paper-card img{
 				width: 100%;
 			}
+			#promo{
+				width:80%;
+				margin-bottom: 0;
+			}			
 		}
 	</style>
 </head>
@@ -116,21 +124,22 @@
 			<div class="section" >
 				<div class="header-title">
 					<img src="icon_128.png" width="50px" width="50px">
-					<h2>Google Slides Remote</h2>
+					<h2>Remote for Google Slides™</h2>
 				</div>
-				<paper-card heading="What is Google Slides Remote?" image="" elevation="1" animated-shadow="false">
+				<paper-card heading="What is Remote for Google Slides™?" image="" elevation="1" animated-shadow="false">
 				  <div class="card-content">
-					<p>Google Slides Remote is a Chrome Extension + <a href="https://limhenry.xyz/slide/" target="_blank">Webapp</a> that allows you to control the presentation slide on another device, remotely.</p>			  	
+					<p>Remote for Google Slides™ is a Chrome Extension + Webapp that allows you to control the presentation slide on another device, remotely.</p>			  	
 				  </div>
 				</paper-card>
 
 				<paper-card heading="Download" image="" elevation="1" animated-shadow="false">
 				  <div class="card-content">
-					<p>Get the Chrome Extension on <a href="https://github.com/limhenry/slide/releases/" target="_blank">here</a></p>			  	
+				  	<a href="https://chrome.google.com/webstore/detail/google-slides-remote/pojijacppbhikhkmegdoechbfiiibppi?utm_source=limhenry.xyz" target="_blank"><img src="promo.png" id="promo"></a>
+					<p>Get the Chrome Extension on <a href="https://chrome.google.com/webstore/detail/google-slides-remote/pojijacppbhikhkmegdoechbfiiibppi?utm_source=limhenry.xyz" target="_blank">Chrome Web Store</a></p>			  	
 				  </div>
 				</paper-card>
 
-				<paper-card heading="How do I use Google Slides Remote?" image="" elevation="1" animated-shadow="false">
+				<paper-card heading="How do I use Remote for Google Slides™?" image="" elevation="1" animated-shadow="false">
 				  <div class="card-content">
 					<ul>
 						<li>Go to <a href="https://docs.google.com/presentation/" target="_blank">Google Slides</a> and open any presentation slide</li>
@@ -178,7 +187,7 @@
 			  <paper-ripple></paper-ripple>
 			  <div id="footer">
 			  	<img src="icon_128.png">
-			  	<h3>Google Slides Remote</h3>
+			  	<h3>Remote for Google Slides™</h3>
 			  	<h4>Control Google Slides on any device, remotely.</h4>
 			  </div>
 			</div>
