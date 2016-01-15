@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Remote for Google Slides™</title>
+
+	<meta charset="utf-8"> 
+
+	<meta name="description" content="Remote for Google Slides™ is a Chrome Extension + web app that allows you to control the presentation slide on another device, remotely." />
+	<meta name="author" content="Henry Lim">
+
+
+	<style>
+		body{
+			background: #eee;
+			color: #333;
+			margin: 0;
+			font-family: Arial;
+		}
+		h2{
+			font-size: 20px;
+		}
+		p, li{
+			font-size: 13px;
+		}
+		a{
+			color: black;
+			font-weight: 600;
+		}
+		.message{
+			font-size: 14px;
+			font-weight: 700;
+			color: #000;
+			text-shadow: .3px .3px .3px #FFF;
+			background-color: #f9edbe;
+			border-bottom: 1px solid #f0c36d;
+			padding: 0;
+			max-height: 50px;			
+		}
+		.message h2{
+			text-align: center;
+			font-size: 14px;
+			padding: 10px;
+			font-weight: 600;
+			margin: 0;
+		}
+		.section{
+			width: 600px;
+			margin: 0 auto;
+			padding: 24px 0;
+		}
+		.header{
+			margin: 0em auto 2.3em;			
+		}
+		.header h2{
+			display: inline-block;
+			font-weight: 500;
+		}
+		.header img{
+			vertical-align: middle;
+		}
+		.card{
+			background: #fff;
+			padding: 2.5em 3em 1.6em 3em;
+			line-height: 2em;
+			box-shadow: rgba(0, 0, 0, .10) 0px 2px 1px, rgba(0, 0, 0, .10) 0px 0px 1px;
+			border-radius: 2px;
+			margin: 0 0 48px 0;
+		}
+		.card h2{
+			font-weight: 500;
+		}
+		.card a{
+			text-decoration: none;
+		}
+		.card img{
+			box-shadow: rgba(0, 0, 0, .10) 0px 2px 1px, rgba(0, 0, 0, .10) 0px 0px 1px;
+			margin: 6px 0 24px 0;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="message">
+		<h2>Make sure you read this guide properly!</h2>
+	</div>
+	<div class="section">
+		<div class="header">
+			<img src="logo_128.png" width="50px" width="50px">
+			<h2>Remote for Google Slides™</h2>
+		</div>
+		<div class="card">
+			<h2>What is Remote for Google Slides™?</h2>
+			<p>Remote for Google Slides™ is a Chrome Extension + <a href="https://limhenry.xyz/slide/" target="_blank">Webapp</a> that allows you to control the presentation slide on another device, remotely.</p>
+		</div>
+		<div class="card">
+			<h2>How do I use Remote for Google Slides™?</h2>
+			<ul>
+				<li>Go to <a href="https://docs.google.com/presentation/" target="_blank">Google Slides</a> and open any presentation slide</li>
+				<li>Click on dropdown button (▼) and select "Present in new window"</li>
+				<img src="slide0.png">
+				<li>Wait for the presentation fully load.</li>
+				<li>A notification will popup and show a link with unique ID</li>
+				<img src="slide1.png">
+				<li>Open the link on another device</li>
+				<li>A notification will pop out again once both devices are ready</li>
+				<img src="slide2.png">
+			</ul>
+		</div>
+		<div class="card">
+			<h2>Known Issues</h2>
+			<ul>
+				<li>This program currently doesn't support "back to previous slide". 
+				<br>Only "click to next slide" is working, so far</li>
+			</ul>
+		</div>				
+		<div class="card">
+			<h2>About</h2>
+			<p>Version: 0.5</p>
+			<p>This extension is created and developed by <a href="https://limhenry.xyz" target="_blank">Henry Lim</a></p>
+			<p>Any question? Find me at <a href="https://twitter.com/henrylim96" target="_blank">@henrylim96</a> or email me at henry (at) limhenry.xyz</p>
+		</div>
+		<div class="card">
+			<h2>Disclaimer</h2>
+			<p>This program is not by Google nor is it officially supported by Google</p>
+			<p>The program is provided as is and the author is not responsible for any problems as a result of the use of this program.</p>
+		</div>
+		<div class="card">
+			<h2>LICENSE</h2>
+			<p>The MIT License (MIT)</p>
+			<p>Copyright (c) 2016 Henry Lim</p>
+			<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+			<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+			<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+		</div>			
+	</div>
+	<script src="analytics.js"></script>
+</body>
+</html>

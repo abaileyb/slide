@@ -1,0 +1,34 @@
+{
+	"manifest_version": 2,
+	"name": "Remote for Google Slides™",
+	"version": "0.5.3",
+	"offline_enabled": true,
+	"description": "Control Google Slides on any device, remotely.",
+	"short_name": "Remote for Google Slides",
+
+	"background": {
+		"persistent": false,
+		"scripts": ["background.js"]
+	},
+
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+
+	"content_scripts": [{
+		"matches":    ["https://docs.google.com/presentation/d/*/present*"],
+		"js":         ["socket.io-1.1.0.js", "content.js", "analytics.js"],
+		"run_at":     "document_idle",
+		"all_frames": false
+	}],
+
+	"permissions": [
+		"notifications"
+	],
+
+	"icons": { 
+		"16": "logo_16.png",
+		"48": "logo_48.png",
+		"128": "logo_128.png" 
+	},
+
+	"options_page": "welcome.html"
+}
